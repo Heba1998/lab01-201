@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BAU</title>
+    <style>
+        body {
+          background-image : url(https://www.bau.edu.jo/Bauliveportal/attch/2897_2.jpg);
+        }
+        
+        h1 {
+          color: maroon;
+          margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Contact us</a></li>
+            <li> <a href="#">Feedback</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>AL-Balqa Applied University</h1>
+
+        <p style="color: rgb(1, 36, 1); background-color: grey ;">what's your full name ?</p>
+        <input type="text">
+        <p style="color: rgba(238, 175, 175, 0.856); background-color: rgb(105, 104, 104);">Please, enter your email:</p>
+        <input type="email">
+        <p style="color: black; background-color: rgb(184, 182, 182) ;">please, enter you password:</p>
+        <input type="password">
+        <p style="color: rgb(250, 255, 250); background-color: rgb(66, 65, 65) ;">Are you a student or employee ?</p>
+    </main>
+
+    <footer>
+        &copy;AL-Balqa Applied University
+    </footer>
+    
+    <script>
+        let fullname = prompt('what\'s your full name ?');
+        console.log(fullname);
+
+        let emailaddress = prompt('Please, enter your email:');
+        console.log(emailaddress);
+
+        let password = prompt('please, enter you password:');
+        console.log(password);
+
+        let TypeOfEmployment = prompt('Are you a student or employee ?');
+        console.log(TypeOfEmployment);
+          
+
+        alert(' welcome dear  '+ TypeOfEmployment+' Just to confirm, your namr is: '+ fullname +' ,your emaill address is: '+ emailaddress +' your password is: '+ password)
+    </script>
+
+
+
+
+</body>
+</html>
