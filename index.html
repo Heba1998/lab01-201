@@ -5,12 +5,65 @@
     <style>
         body {
           background-image : url(https://www.bau.edu.jo/Bauliveportal/attch/2897_2.jpg);
+          background-size: cover;
+
+        }
+        nav {
+            margin: 0;
+          height: 80px;
+          width: 100%;
+          background: rgba(0,0,0,0.4);
         }
         
-        h1 {
-          color: maroon;
-          margin-left: 40px;
+        nav ul {
+         
+         float: right;
+         margin-right: 20px;
+
         }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 7px;
+            display: inline-block;
+            line-height: 80px;
+
+        }
+
+
+        nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+
+        }
+        
+
+        main{
+           background: rgba(0,0,0,0.4);
+            position : absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            user-select:none;
+
+            
+
+        }
+
+        h1 {
+          color:white;
+         text-allign: center;
+        }
+
+        p{
+          font-size:20px;
+
+        }
+      
+        
+  
     </style>
 </head>
 <body>
@@ -35,11 +88,12 @@
         <p style="color: black; background-color: rgb(184, 182, 182) ;">please, enter you password:</p>
         <input type="password">
         <p style="color: rgb(250, 255, 250); background-color: rgb(66, 65, 65) ;">Are you a student or employee ?</p>
+        <input type="text">
+
     </main>
 
     <footer>
-        &copy;AL-Balqa Applied University
-    </footer>
+   </footer>
     
     <script>
         let fullname = prompt('what\'s your full name ?');
